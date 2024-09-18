@@ -20,6 +20,7 @@
 
 #### 이유나(팀원-프론트엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
 
+<br>
 
 ## 내가 맡은 역할
 - 백엔드
