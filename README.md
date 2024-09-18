@@ -5,8 +5,8 @@
 
 
 * 주제 : **새상품** 정보를 알 수 있는 중고거래 사이트
-* 기획 의도 : 중고상품 구매 시 새상품 가격 비교를 위한 다른 사이트 방문의 번거러움을 줄이고자 함.
-* 기간 : 2024.08.26 ~ 2024.09.13
+* 기획 의도 : 중고상품 구매 시 새상품 가격 비교를 위한 다른 사이트 방문의 번거움을 줄이고자 함.
+* 기간 : 2024.08.26 ~ 2024.09.12
 * Test ID: admin@admin.com
 * Test Password: Admin12@1
 
@@ -14,25 +14,47 @@
 
 ## :raising_hand: Developers
 
-#### 석원준 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
-- **백엔드** : 유저 CRUD (로그인, 주소서비스, 판매자 온도 계산), 리뷰 CRUD, 채팅 (socket.io/ 채팅방 CR, 메세지 CR), Money 충전, 프로필 사진 업로드 (S3-multer),  권한(JWT), 암호화(bcrypt)
-- **프론트엔드** : 채팅, 관리자 페이지
-- **서버 배포**: AWS (EC2, RDS, S3), NGINX
+#### 석원준(팀장-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
 
-#### 유예진 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
-- **백엔드** : 상품 CRUD, 새상품 데이터 가져오기 (네이버 API), 마이페이지( 찜 / 구매 / 판매 내역, 배송 현황 )
-- **프론트엔드** : 상품 CRUD
+#### 유예진(팀원-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
 
-#### 이유나 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
-- **프론트엔드** : Header, 로그인 / 회원가입 (카카오 주소 API), 마이페이지( 프로필, Money 충전, 찜 / 구매 / 판매 내역, 배송 현황 ), 상품 CRUD UI
+#### 이유나(팀원-프론트엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
 
+
+## 내가 맡은 역할
+- 백엔드
+  - 유저 CRUD - 회원가입, 회원정보수정, 회원조회, 회원삭제
+  - 리뷰 CRUD - 리뷰등록, 리뷰수정, 리뷰확인, 리뷰삭제
+  - 채팅 기능 (채팅방 CR, 메세지 CR / Socket.IO)
+    - 소켓을 활용하여 채팅방 생성, 메세지 전송
+    - 상품을 기준으로 판매자와 구매자 1:1 채팅방 생성
+    - 권한있는 사용자만 채팅방에 입장가능
+    - 메세지 전송
+    - 메세지 발송정보 DB에 저장
+  - 로그인, 로그아웃 기능
+  - 주소 서비스 (Location) - depth 1~4 로 나눠 시도, 시군구, 읍면동으로 구분하여 DB 저장 
+  - 판매자 온도 계산 - 구매자 댓글에 등록한 온도에 따라 판매자 전체 온도 계산
+  - 개인 프로필 사진 업로드 - S3-multer 사용으로 개인 프로필 사진 업로드, 재업로드시 자동 삭제 후 재등록(수정) 
+  - 권한(JWT) - isAdmin, isActive로 관리자권한과 활동상태(활동중, 활동정지) 부여
+  - 비밀번호 암호화(bcrypt)
+- 프론트엔드
+  - 채팅 페이지 - Hook, Socket.io-client,Redux 활용
+    - 채팅리스트 - 채팅방 목록 표시, 메세지 도착 시 상단으로 재배열
+    - 채팅룸 - 메시지 전달 공간
+  - 관리자 페이지
+    - 관리자 전용 페이지, 토큰으로 확인, 한 페이지내 UserTab, ProductTab으로 나눔, Redux 활용
+    - 회원목록조회(UserTab) - 회원목록조회, 활동상태(활동중/활동정지) 변경, 강퇴 기능
+    - 상품목록조회(ProductTab) - 상품목록조회, 상품상태(판매, 배송, 거래완료 등) 확인, 삭제 기능
+- 서버배포(AWS)
+    - EC2, S3, RDS(MySQL) - AWS활용, S3로 이미지, RDS로 MySQL 사용
+    - NGINX
 
 <br>
 
 
 ## 🧰 Architecture
 
-![image](https://github.com/user-attachments/assets/fe7e8aca-5820-4504-ad3f-724b562fc09d)
+![image](https://github.com/user-attachments/assets/4a0ad14c-6ad8-4474-bd85-784a399e79ff)
 
 
 ## ❓ 주요 기술 채택 이유
