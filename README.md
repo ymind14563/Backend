@@ -46,9 +46,10 @@
     - 관리자 전용 페이지, 토큰으로 확인, 한 페이지내 UserTab, ProductTab으로 나눔, Redux 활용
     - 회원목록조회(UserTab) - 회원목록조회, 활동상태(활동중/활동정지) 변경, 강퇴 기능
     - 상품목록조회(ProductTab) - 상품목록조회, 상품상태(판매, 배송, 거래완료 등) 확인, 삭제 기능
+      
 #### 서버배포(AWS)
-    - EC2, S3, RDS(MySQL) - AWS활용, S3로 이미지, RDS로 MySQL 사용
-    - NGINX
+  - EC2, S3, RDS(MySQL) - AWS활용, S3로 이미지, RDS로 MySQL 사용
+  - NGINX
 
 <br>
 
