@@ -1,24 +1,38 @@
-![스크린샷 2024-09-16 181008](https://github.com/user-attachments/assets/3851aef1-70cd-418d-9261-5f04d3564ed1)# :seedling: SeSAC 2차 프로젝트 Smile Hub
-<br/>
+<div align="center">
+  <h1> <img src="https://github.com/user-attachments/assets/d32dab93-440f-413f-b380-d70518a612ca" alt="Smile Hub" width="30"/> Smile Hub</h1>
+  <br>
+</div>
+
+<br>
+
+![스크린샷 2024-09-16 181008](https://github.com/user-attachments/assets/3851aef1-70cd-418d-9261-5f04d3564ed1)
 
 ## <img src="https://github.com/user-attachments/assets/d32dab93-440f-413f-b380-d70518a612ca" alt="Smile Hub" width="30"/> 프로젝트 소개
 
 
 * 주제 : **새상품** 정보를 알 수 있는 중고거래 사이트
 * 기획 의도 : 중고상품 구매 시 새상품 가격 비교를 위한 다른 사이트 방문의 번거로움을 줄이고자 함.
-* 기간 : 2024.08.26 ~ 2024.09.12
+* 기간 : 2024.08.26 ~ 2024.09.12 (18일, 현재 리팩토링 작업 중)
+* 배포주소: [http://ec2-13-124-93-105.ap-northeast-2.compute.amazonaws.com/](http://ec2-13-124-93-105.ap-northeast-2.compute.amazonaws.com/)
 * Test ID: admin@admin.com
 * Test Password: Admin12@1
+* Repository
+   - Banckend : [https://github.com/ymind14563/SimeHub-Backend](https://github.com/ymind14563/SimeHub-Backend)
+   - Frontend : [https://github.com/ymind14563/SmileHub-Frontend](https://github.com/ymind14563/SmileHub-Frontend)
+     
+<br>
+
+#### [작동 영상으로 바로가기](#clipboard-주요-페이지)
 
 <br>
 
 ## :raising_hand: Developers
 
-#### 석원준(팀장-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
+#### 석원준 (팀장-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
 
-#### 유예진(팀원-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
+#### 유예진 (팀원-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
 
-#### 이유나(팀원-프론트엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
+#### 이유나 (팀원-프론트엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
 
 <br>
 
@@ -53,11 +67,11 @@
 
 <br>
 
-
 ## 🧰 Architecture
 
 ![image](https://github.com/user-attachments/assets/4a0ad14c-6ad8-4474-bd85-784a399e79ff)
 
+<br>
 
 ## ❓ 주요 기술 채택 이유
 
@@ -132,6 +146,7 @@
 └─swagger.js           # Swagger 설정 파일 (API 문서화)
 
 ```
+
 <br>
 
 ## :bulb: 요구사항정의서
@@ -153,44 +168,71 @@
 
 ## :clipboard: 주요 페이지
 
-### 로그인 / 회원가입
+### - 로그인 / 회원가입
 - 이메일, 닉네임 중복 검사 필수로 수행
-<img src="https://github.com/user-attachments/assets/d156b0f9-4834-4a89-bf9a-25987a6e4d6d" style="width: 40%">
-<img src="https://github.com/user-attachments/assets/ecf49708-907c-4190-a6eb-3aac30c53de7" style="width: 40%">
+- 카카오 주소 API
+  
+![회원가입로그인](https://github.com/user-attachments/assets/ab466574-e7a0-4960-a509-a0d847e3bd06)
 
-### 마이페이지
-- 회원정보 수정, 탈퇴, 프로필 업로드 / 찜, 판매, 구매 내역 / 머니 충전
-- 판매자, 구매자의 버튼 선택에 따른 배송 현황
-<img src="https://github.com/user-attachments/assets/4193cb5e-1c3d-4758-b6e8-78b73249617f" style="width: 45%">
-<img src="https://github.com/user-attachments/assets/dffbda73-ab22-4fc1-8829-658d749942b0" style="width: 45%">
-<img src="https://github.com/user-attachments/assets/b246fd9c-1d18-4e43-9490-97b581597154" style="width: 50%">
+<br>
 
-### 채팅
-- 구매자와 판매자의 양방향 소통 가능
-<img src="https://github.com/user-attachments/assets/282b21cb-7244-4e43-a649-94326adc64fa" style="width: 70%">
-
-### 메인, 검색
+### - 메인, 검색 페이지
 - 무한스크롤, 키워드로 검색
-<img src="https://github.com/user-attachments/assets/0e38c8d2-684d-44b9-a692-d3a5a9f1097d" style="width: 45%">
-<img src="https://github.com/user-attachments/assets/3d6bb75e-3722-4e1f-8a25-f15217a620e5" style="width: 45%">
 
+![메인페이지](https://github.com/user-attachments/assets/76b5250a-f672-40c5-ae41-e7b26211322a)
 
-### 상세
-- 상품 이미지 swiper, 배송 현황, 채팅/안전거래, 해당 상품의 최저가 목록(네이버 API)
-<img src="https://github.com/user-attachments/assets/414f9b4e-c813-451a-8611-49698965606e" style="width: 45%">
-<img src="https://github.com/user-attachments/assets/910de93f-b7a7-420a-b5c5-8b105349b291" style="width: 45%">
+<br>
 
-### 결제, 충전
-- 금액 확인 후 결제 가능, money 충전을 통한 결제 구현
-<img src="https://github.com/user-attachments/assets/73ba0d71-3d27-4357-a4b8-aae86d4fabdf" style="width: 40%">
-<img src="https://github.com/user-attachments/assets/c2863f4f-8fe4-4038-a0ae-277b3d55c135" style="width: 40%">
+### - 상세 페이지
+- 상품 수정
+- 배송 현황
+- 채팅/안전거래
+- 해당 상품의 최저가 목록(네이버 API)
+- 상품 이미지 swiper 적용
 
-### 상품 작성 및 수정, 삭제 
-- 이미지 업로드 및 수정, 상품 삭제
-<img src="https://github.com/user-attachments/assets/efe6a07b-a524-409d-8904-13fdf21ec20a" style="width: 50%">
+![상품등록수정](https://github.com/user-attachments/assets/5aa014d7-8366-44f9-a0b9-956c93560631)
 
-### 관리자
-- 회원 관리, 상품 관리 가능
-<img src="https://github.com/user-attachments/assets/de6cd8cf-3ec0-43ae-8db5-220b117553e3" style="width: 50%">
+<br>
+
+### - 채팅
+- 구매자와 판매자의 실시간 양방향 소통 가능
+
+![채팅](https://github.com/user-attachments/assets/166bdb9f-75d3-49e3-ac91-0002eff8290b)
+
+<br>
+
+### - 결제, 충전
+- 안전 결제, money 충전을 통한 결제 구현
+  
+![안전결제](https://github.com/user-attachments/assets/2fb6a008-5e8c-4dbb-b792-aa3a7fae2142)
+
+<br>
+
+### - 결제 시스템
+- 구매자 결제 -> 판매자 답신(수락/거절) -> 판매자 발송 -> 배송완료 -> 구매자 상품 확인 -> 정산 완료 -> 거래 종료
+
+![결제시스템](https://github.com/user-attachments/assets/0834bd38-1e68-42a2-b9d7-c9d036525e4b)
+
+<br>
+
+### - 마이페이지
+- 회원정보 수정, 탈퇴, 프로필 이미지 등록 및 수정
+- 찜 목록 확인 / 머니 충전
+- 판매 내역, 구매 내역 확인
+- 판매 내역, 구매 내역에서 역할에 따른 행동 가능 (결제 시스템 기반)
+
+![마이페이지](https://github.com/user-attachments/assets/0831fd3b-ac06-4b66-a1d0-a63d98046813)
+
+![프로필이미지변경](https://github.com/user-attachments/assets/bd59cd78-3f01-45e7-8dd5-879821c19cbd)
+
+<br>
+
+### - 어드민 페이지
+- 회원 관리 (활동중, 활동정지 토글), 회원 강제 퇴장
+- 상품 관리 (상품 상태 확인), 상품 삭제
+- 상품의 신고가 많으면 해당 유저 자동 활동 정지
+
+![관리자페이지](https://github.com/user-attachments/assets/e6258ed6-9b5a-41a0-a48a-3b809ce64d34)
+
 
 
