@@ -13,12 +13,12 @@
 * 주제 : **새상품** 정보를 알 수 있는 중고거래 사이트
 * 기획 의도 : 중고상품 구매 시 새상품 가격 비교를 위한 다른 사이트 방문의 번거로움을 줄이고자 함.
 * 기간 : 2024.08.26 ~ 2024.09.12 (18일, 현재 리팩토링 작업 중)
-* 배포주소: [http://ec2-13-124-93-105.ap-northeast-2.compute.amazonaws.com/](http://ec2-13-124-93-105.ap-northeast-2.compute.amazonaws.com/)
+* 배포주소: <a href="http://ec2-13-124-93-105.ap-northeast-2.compute.amazonaws.com/" target="_blank">http://ec2-13-124-93-105.ap-northeast-2.compute.amazonaws.com/</a>
 * Test ID: admin@admin.com
 * Test Password: Admin12@1
 * Repository
-   - Banckend : [https://github.com/ymind14563/SimeHub-Backend](https://github.com/ymind14563/SimeHub-Backend)
-   - Frontend : [https://github.com/ymind14563/SmileHub-Frontend](https://github.com/ymind14563/SmileHub-Frontend)
+   - Banckend : <a href="https://github.com/ymind14563/SimeHub-Backend" target="_blank">https://github.com/ymind14563/SimeHub-Backend</a>
+   - Frontend : <a href="https://github.com/ymind14563/SmileHub-Frontend" target="_blank">https://github.com/ymind14563/SmileHub-Frontend</a>
      
 <br>
 
@@ -28,11 +28,11 @@
 
 ## :raising_hand: Developers
 
-#### 석원준 (팀장-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
+#### 석원준 (팀장-백엔드) <a href="https://github.com/ymind14563" target="_blank">![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)</a>
 
-#### 유예진 (팀원-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
+#### 유예진 (팀원-백엔드) <a href="https://github.com/yjyoo6831" target="_blank">![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)</a>
 
-#### 이유나 (팀원-프론트엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
+#### 이유나 (팀원-프론트엔드) <a href="https://github.com/youna99" target="_blank">![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)</a>
 
 <br>
 
