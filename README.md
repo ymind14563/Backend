@@ -28,11 +28,12 @@
 
 ## :raising_hand: Developers
 
-#### 석원준 (팀장-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
+| 이름     | 역할              | GitHub 링크                                                                 |
+|----------|-------------------|----------------------------------------------------------------------------|
+| 석원준   | 팀장 - 풀스택      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563) |
+| 유예진   | 팀원 - 백엔드      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831) |
+| 이유나   | 팀원 - 프론트엔드      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99) |
 
-#### 유예진 (팀원-백엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
-
-#### 이유나 (팀원-프론트엔드) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
 
 <br>
 <br>
