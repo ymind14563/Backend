@@ -27,6 +27,19 @@
 <br>
 <br>
 
+## :raising_hand: Developers
+
+| 이름     | 역할              | GitHub 링크                                                                 |
+|----------|-------------------|----------------------------------------------------------------------------|
+| 석원준   | 팀장 - 풀스택      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563) |
+| 유예진   | 팀원 - 백엔드      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831) |
+| 이유나   | 팀원 - 프론트엔드      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99) |
+
+
+<br>
+<br>
+
+
 ## 📙 사용한 기술
 
 | **Category**         | **Technologies**                                                                 |
@@ -42,17 +55,21 @@
 <br>
 <br>
 
-## :raising_hand: Developers
 
-| 이름     | 역할              | GitHub 링크                                                                 |
-|----------|-------------------|----------------------------------------------------------------------------|
-| 석원준   | 팀장 - 풀스택      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563) |
-| 유예진   | 팀원 - 백엔드      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831) |
-| 이유나   | 팀원 - 프론트엔드      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99) |
+## ❓ 주요 기술 채택 이유
 
+- **JWT** (JSON Web Token) : 보안 및 서버의 부하를 줄이고, 확장성을 높이기 위해 채택
+- **Socket.io** : 채팅 기능을 위해 실시간 양방향 통신이 가능하고, 다양한 이벤트를 쉽게 처리하기 위해 채택
+- **Multer-S3** : AWS 서버에 파일을 업로드하여 서버의 저장 공간 절약 및 파일 관리의 용이성과 파일 형식 및 크기 제한을 위해 채택
+- **Sequelize**: Node.js 환경에 최적화 되어있어 비동기 프로그래밍에 적합하고, 복잡한 쿼리문 대신 ORM을 사용하여 데이터 추출을 위해 채택
+- **AWS** : 현재 클라우드 시장에서 가장 큰 점유율을 차지하고 있으며, EC2, S3, RDS 등 다양한 서비스를 지원하고, 자원을 확대/축소 하는 등 유연성의 이점으로 인해 채택
+- **React** : 강력한 생태계와 컴포넌트 재사용성이 뛰어나며, 상태 관리의 유연성이 더 적합하여 채택택
+- **Redux Toolkit** : 복잡한 Redux 설정을 간소화하고 더 직관적인 API와 유틸리티를 제공하여 상태 관리를 효율적으로 하기 위해 채택
+- **React-router** : 불필요한 API를 줄여 SPA(Single Page Application)에서의 효율적인 라우팅 관리와 동적 페이지 전환을 쉽게 구현하기 위해 채택
 
 <br>
 <br>
+
 
 ## ⭐️ 내가 맡은 역할
 ### 백엔드
@@ -93,19 +110,6 @@
 <br>
 <br>
 
-## ❓ 주요 기술 채택 이유
-
-- **JWT** (JSON Web Token) : 보안 및 서버의 부하를 줄이고, 확장성을 높이기 위해 채택
-- **Socket.io** : 채팅 기능을 위해 실시간 양방향 통신이 가능하고, 다양한 이벤트를 쉽게 처리하기 위해 채택
-- **Multer-S3** : AWS 서버에 파일을 업로드하여 서버의 저장 공간 절약 및 파일 관리의 용이성과 파일 형식 및 크기 제한을 위해 채택
-- **Sequelize**: Node.js 환경에 최적화 되어있어 비동기 프로그래밍에 적합하고, 복잡한 쿼리문 대신 ORM을 사용하여 데이터 추출을 위해 채택
-- **AWS** : 현재 클라우드 시장에서 가장 큰 점유율을 차지하고 있으며, EC2, S3, RDS 등 다양한 서비스를 지원하고, 자원을 확대/축소 하는 등 유연성의 이점으로 인해 채택
-- **React** : 강력한 생태계와 컴포넌트 재사용성이 뛰어나며, 상태 관리의 유연성이 더 적합하여 채택택
-- **Redux Toolkit** : 복잡한 Redux 설정을 간소화하고 더 직관적인 API와 유틸리티를 제공하여 상태 관리를 효율적으로 하기 위해 채택
-- **React-router** : 불필요한 API를 줄여 SPA(Single Page Application)에서의 효율적인 라우팅 관리와 동적 페이지 전환을 쉽게 구현하기 위해 채택
-
-<br>
-<br>
 
 ## 📂 프로젝트 구조
 - 프론트
