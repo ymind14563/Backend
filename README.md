@@ -25,6 +25,22 @@
 #### [작동 영상으로 바로가기](#clipboard-주요-페이지)
 
 <br>
+<br>
+
+## 📙 사용한 기술
+
+| **Category**         | **Technologies**                                                                 |
+|-----------------------|----------------------------------------------------------------------------------|
+| **Backend**          | Javascript, Node.js v20.14.0, Express v4.19.2, Sequelize v6.37.3, Socket.IO v4.7.5 |
+| **Frontend**         | React v18.3.1, Redux-Toolkit v2.2.7, Socket.IO v4.7.5                            |
+| **Database**         | MySQL v8.4.3 LTS                                                               |
+| **Cloud**            | AWS EC2, RDS, S3                                                               |
+| **Proxy Server**     | NGINX v1.24.0                                                                  |
+| **Process Manager**  | PM2                                                                            |
+| **Tool**             | JIRA, Swagger, GitHub   
+
+<br>
+<br>
 
 ## :raising_hand: Developers
 
@@ -39,7 +55,7 @@
 <br>
 
 ## ⭐️ 내가 맡은 역할
-#### 백엔드
+### 백엔드
   - 유저 CRUD - 회원가입, 회원정보수정, 회원조회, 회원삭제
   - 리뷰 CRUD - 리뷰등록, 리뷰수정, 리뷰확인, 리뷰삭제
   - 채팅 기능 (채팅방 CR, 메세지 CR / Socket.IO)
@@ -54,7 +70,7 @@
   - 개인 프로필 사진 업로드 - S3-multer 사용으로 개인 프로필 사진 업로드, 재업로드시 자동 삭제 후 재등록(수정) 
   - 권한(JWT) - isAdmin, isActive로 관리자권한과 활동상태(활동중, 활동정지) 부여
   - 비밀번호 암호화(bcrypt)
-#### 프론트엔드
+### 프론트엔드
   - 채팅 페이지 - Hook, Socket.io-client,Redux 활용
     - 채팅리스트 - 채팅방 목록 표시, 메세지 도착 시 상단으로 재배열
     - 채팅룸 - 메시지 전달 공간
@@ -63,16 +79,18 @@
     - 회원목록조회(UserTab) - 회원목록조회, 활동상태(활동중/활동정지) 변경, 강퇴 기능
     - 상품목록조회(ProductTab) - 상품목록조회, 상품상태(판매, 배송, 거래완료 등) 확인, 삭제 기능
       
-#### 서버배포(AWS)
+### 서버배포(AWS)
   - EC2, S3, RDS(MySQL) - AWS활용, S3로 이미지, RDS로 MySQL 사용
   - NGINX
 
+<br>
 <br>
 
 ## 🧰 Architecture
 
 ![image](https://github.com/user-attachments/assets/4a0ad14c-6ad8-4474-bd85-784a399e79ff)
 
+<br>
 <br>
 
 ## ❓ 주요 기술 채택 이유
@@ -86,6 +104,7 @@
 - **Redux Toolkit** : 복잡한 Redux 설정을 간소화하고 더 직관적인 API와 유틸리티를 제공하여 상태 관리를 효율적으로 하기 위해 채택
 - **React-router** : 불필요한 API를 줄여 SPA(Single Page Application)에서의 효율적인 라우팅 관리와 동적 페이지 전환을 쉽게 구현하기 위해 채택
 
+<br>
 <br>
 
 ## 📂 프로젝트 구조
@@ -150,10 +169,12 @@
 ```
 
 <br>
+<br>
 
 ## :bulb: 요구사항정의서
 ![사용자요구사항정의서](https://github.com/user-attachments/assets/076ef774-8051-4e41-9333-3c4385420113)
 
+<br>
 <br>
 
 ## :bulb: API 명세서
@@ -161,12 +182,13 @@
 ![swagger_1](https://github.com/user-attachments/assets/8e968c1e-ec2d-4c8e-8029-dab646df8dfd)
 
 <br>
+<br>
 
 ## 📚 데이터베이스 ERD
 ![ERD](https://github.com/user-attachments/assets/a0ee8efe-93e5-4a2e-a266-2585f84f65aa)
 
 <br>
-
+<br>
 
 ## :clipboard: 주요 페이지
 
